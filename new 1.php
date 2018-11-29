@@ -9,9 +9,9 @@
 	  		echo "Вgнимание! Файл new 2.php не найден!";
 		else echo "Файл найден!<br>";
 
-		require 'new 2.php';
-		$mas=$array;
-		foreach ($mas as $value) {
+				require 'new 2.php';
+				$mas=$array;
+				foreach ($mas as $value) {
 			echo "$value ";
 		}
 
